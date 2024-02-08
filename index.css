@@ -1,0 +1,12 @@
+body{background-image: url(Resimler/arka_pilan/arka_bg.jpg);}
+.font{font-family:"RICKSTA Trial"; src: url("font/RICKSTA\ Trial.ttf") format("truetype");}
+#container{width: 1900px; height: auto; background-color: #000;}
+nav{/*position: fixed;*/ width:100%; height: 120px; background-color: #26262d; box-shadow: 0px 20px 35px #26262d;}
+#navlogo{width: 35%; height: 100px; float: left; background-position: left; padding: 20px; background-image: url("Resimler/logolar/logo1_orgin.png"); margin-left: 20px;background-size: 300px 150px /*bro resim boyutu ayarlama*/;background-repeat: no-repeat /*bro resim tekrarını kapatıyo*/; cursor: pointer /*bro resim tıklanabilir hale geliyo unutma*/;}
+nav ul{ list-style-type: none; margin: 0px; padding: 0px; }
+nav ul li{float: left; padding: 20px; text-align: center;}
+nav ul li a{font-size: 30px; font-weight: bold; color: #E5EDFA; width: 50px; padding: 10px; text-decoration: none; text-align: center;}
+nav ul li a:hover{color: #611212;} 
+nav ul li a:active{ text-shadow: 0px 0px 22px #32ff4e;}
+section{width: 100%; height: 800px; background-color: green; float: left;}
+article{width: 100%; height: 500px;background: red;}
